@@ -1366,6 +1366,7 @@ static const struct qmp_phy_cfg sm8550_ufsphy_cfg = {
 		.serdes		= sm8550_ufsphy_hs_b_serdes,
 		.serdes_num	= ARRAY_SIZE(sm8550_ufsphy_hs_b_serdes),
 	},
+<<<<<<< HEAD
 	.tbls_hs_overlay[0] = {
 		.serdes		= sm8550_ufsphy_g4_serdes,
 		.serdes_num	= ARRAY_SIZE(sm8550_ufsphy_g4_serdes),
@@ -1386,6 +1387,8 @@ static const struct qmp_phy_cfg sm8550_ufsphy_cfg = {
 		.pcs_num	= ARRAY_SIZE(sm8550_ufsphy_g5_pcs),
 		.max_gear	= UFS_HS_G5,
 	},
+=======
+>>>>>>> c52d0e0b5247 (phy: qcom-qmp-ufs: Switch to devm_clk_bulk_get_all() API)
 	.vreg_list		= qmp_phy_vreg_l,
 	.num_vregs		= ARRAY_SIZE(qmp_phy_vreg_l),
 	.regs			= ufsphy_v6_regs_layout,
