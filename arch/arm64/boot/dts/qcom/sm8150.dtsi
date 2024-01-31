@@ -2111,9 +2111,15 @@
 			clocks = <&rpmhcc RPMH_CXO_CLK>,
 				 <&gcc GCC_UFS_PHY_PHY_AUX_CLK>,
 				 <&gcc GCC_UFS_MEM_CLKREF_CLK>;
+<<<<<<< HEAD
 			clock-names = "ref",
 				      "ref_aux",
 				      "qref";
+=======
+ 			clock-names = "ref",
+						  "ref_aux",
+						  "qref";
+>>>>>>> 5f7b858f5f33 (arm64: dts: qcom: sm8150: Fix UFS PHY clocks)
 
 			power-domains = <&gcc UFS_PHY_GDSC>;
 
