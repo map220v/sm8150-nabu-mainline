@@ -544,7 +544,6 @@ static void dpu_hw_ctl_intf_cfg_v1(struct dpu_hw_ctl *ctx,
 		struct dpu_hw_intf_cfg *cfg)
 {
 	struct dpu_hw_blk_reg_map *c = &ctx->hw;
-	u32 dsc_active = 0;
 	u32 intf_active = 0;
 	u32 dsc_active = 0;
 	u32 wb_active = 0;
